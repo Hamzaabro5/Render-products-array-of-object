@@ -108,3 +108,22 @@ const products = [
         description: "Fast and reliable internet connection for your home network."
     }
 ];
+
+
+for (let i = 0; i < products.length; i++) {
+    console.log(products[i]);
+
+    div.innerHTML += `<div class="card">
+    <a class="card1" href="#">
+     <p></p>
+     <p class="small">Name: ${products[i].name} <br/> Price: ${products[i].price} <br/> Description: ${products[i].description}</p>
+     <div class="go-corner" href="#">
+       <div class="go-arrow">
+         →
+       </div>
+     </div>
+   </a>
+ </div>`
+
+
+}
