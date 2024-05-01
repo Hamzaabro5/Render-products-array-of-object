@@ -114,9 +114,9 @@ for (let i = 0; i < products.length; i++) {
     console.log(products[i]);
 
     div.innerHTML += `<div class="card">
-    <a class="card1" href="#">
+    <a class="card1">
      <p></p>
-     <p class="small">Name: ${products[i].name} <br/> Price: ${products[i].price} <br/> Description: ${products[i].description}</p>
+     <p class="small"><b>Name</b>: ${products[i].name} <br/><br/> <b>Price</b>: $${products[i].price} <br/><br/> <b>Description</b>: ${products[i].description}</p>
      <div class="go-corner" href="#">
        <div class="go-arrow">
          →
