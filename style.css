@@ -205,5 +205,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 130px;
+    gap: 80px;
+  }
+  h1{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px 0px;
   }
